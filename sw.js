@@ -1,17 +1,17 @@
 const CACHE_NAME = 'quick-notes-cache-v1'
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/main.css',
-  '/app.js',
-  '/pwa-install.js',
-  '/app.webmanifest',
-  '/img/favicon.ico',
-  '/img/icons/icon-128x128.png',
-  '/img/icons/icon-144x144.png',
-  '/img/icons/icon-192x192.png',
-  '/img/icons/icon-256x256.png',
-  '/img/icons/icon-512x512.png'
+  'https://phsgoes.github.io/fast-notes/',
+  'https://phsgoes.github.io/fast-notes/index.html',
+  'https://phsgoes.github.io/fast-notes/main.css',
+  'https://phsgoes.github.io/fast-notes/app.js',
+  'https://phsgoes.github.io/fast-notes/pwa-install.js',
+  'https://phsgoes.github.io/fast-notes/app.webmanifest',
+  'https://phsgoes.github.io/fast-notes/img/favicon.ico',
+  'https://phsgoes.github.io/fast-notes/img/icons/icon-128x128.png',
+  'https://phsgoes.github.io/fast-notes/img/icons/icon-144x144.png',
+  'https://phsgoes.github.io/fast-notes/img/icons/icon-192x192.png',
+  'https://phsgoes.github.io/fast-notes/img/icons/icon-256x256.png',
+  'https://phsgoes.github.io/fast-notes/img/icons/icon-512x512.png'
 ]
 
 self.addEventListener('install', event => {
