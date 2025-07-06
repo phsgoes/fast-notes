@@ -124,7 +124,7 @@
     },
     {
       "src": "img/screenshots/phone-home-dark.webp",
-      "sizes": "422x846",
+      "sizes": "432x865",
       "type": "image/webp",
       "form_factor": "narrow",
       "label": "Phone home screen (dark)"
