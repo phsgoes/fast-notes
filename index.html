@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="msapplication-TileColor" content="#7a7fff">
+  <meta name="msapplication-TileImage" content="/img/icons/icon-144x144.png">
+  <meta name="theme-color" content="#7a7fff">
   <title>Fast notes</title>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#7a7fff">
+  <meta name="apple-mobile-web-app-title" content="Fast Notes">
+  <link rel="apple-touch-icon" sizes="64x64" href="/img/icons/icon-64x64.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="/img/icons/icon-128x128.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/img/icons/icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="/img/icons/icon-256x256.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/img/icons/icon-512x512.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="/img/icons/icon-1024x1024.png">
+  <!--[if IE]>
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/icon-192x192.png" />
+  <![endif]-->
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/icon-16x16.png">
+  <link rel="manifest" href="/app.webmanifest">
   <link rel="stylesheet" href="/main.css">
   <script src="/app.js" defer></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => console.log('ServiceWorker registration successful with scope: ', registration.scope))
+          .catch(error => console.log('ServiceWorker registration failed: ', error))
+      })
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -13,6 +44,7 @@
     <div>
       <button class="add-note-btn" onclick="openNoteDialog()">+ Add Note</button>
       <button id="themeToggleBtn" class="theme-toggle-btn" title="Change to dark mode">🌙</button>
+      <button id="installationButton" class="installation-btn" hidden>Install</button>
     </div>
   </header>
   <main id="notesContainer" class="notes-grid"></main>
@@ -42,5 +74,6 @@
       </form>
     </div>
   </dialog>
+  <script src="/pwa-install.js"></script>
 </body>
 </html>

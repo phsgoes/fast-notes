@@ -111,6 +111,28 @@ header {
   color: white;
 }
 
+.installation-btn {
+  margin-left: 1rem;
+  background: hsl(335, 99%, 62%);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.installation-btn:hover {
+  background: hsl(335, 99%, 50%);
+}
+
+@media all and (display-mode: standalone) {
+  .installation-btn {
+    display: none;
+  }
+}
+
 @media (max-width: 470px) {
   header {
     flex-direction: column;
@@ -334,6 +356,7 @@ dialog::backdrop {
 }
 
 .dark-theme .add-note-btn,
+.dark-theme .installation-btn,
 .dark-theme .save-btn {
   background: transparent;
   color: white;
@@ -341,6 +364,7 @@ dialog::backdrop {
 }
 
 .dark-theme .add-note-btn:hover,
+.dark-theme .installation-btn:hover,
 .dark-theme .save-btn:hover {
   background: rgba(180, 180, 180, 0.1)
 }

@@ -1,0 +1,136 @@
+{
+  "name": "Simple Fast Notes",
+  "short_name": "Fast Notes",
+  "description": "A simple and fast notes app to jot down your thoughts quickly.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "background_color": "#ffffff",
+  "theme_color": "#7A7FFF",
+  "orientation": "any",
+  "categories": ["productivity", "utilities", "tools"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "img/icons/icon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-76x76.png",
+      "sizes": "76x76",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/maskable-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshots/desktop-home-light.webp",
+      "sizes": "1165x931",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Desktop light mode",
+      "platform": "desktop"
+    },
+    {
+      "src": "img/screenshots/desktop-home-dark.webp",
+      "sizes": "1163x927",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Desktop dark mode",
+      "platform": "desktop"
+    },
+    {
+      "src": "img/screenshots/phone-home-light.webp",
+      "sizes": "432x865",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Phone home screen (light)"
+    },
+    {
+      "src": "img/screenshots/phone-home-dark.webp",
+      "sizes": "422x846",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Phone home screen (dark)"
+    }
+  ],
+  "protocol_handlers": [],
+  "shortcuts": [],
+  "related_applications": []
+}
