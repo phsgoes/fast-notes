@@ -128,6 +128,20 @@
       "type": "image/webp",
       "form_factor": "narrow",
       "label": "Phone home screen (dark)"
+    },
+    {
+      "src": "img/screenshots/phone-edit-dark.webp",
+      "sizes": "432x865",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Phone edit note (dark)"
+    },
+    {
+      "src": "img/screenshots/phone-create-light.webp",
+      "sizes": "432x865",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Phone create note (light)"
     }
   ],
   "protocol_handlers": [],
