@@ -7,6 +7,9 @@ This project uses **IndexedDB** to store notes locally so, the only limitation i
 
 [![IndexedDB](https://i.ibb.co/Tqc4qBZN/Screenshot-20250706-141513.png)](https://caniuse.com/?search=IndexedDB)
 
+## Demo
+[https://phsgoes.github.io/fast-notes](https://phsgoes.github.io/fast-notes)
+
 ## Installation
 
 No need for package manager such as **npm**, **yarn** or **pnpm**. This project is very simple and only uses **HTML**, **CSS** and **Vanilla JS**. All you have to do is:
