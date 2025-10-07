@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quick-notes-cache-v1'
+const CACHE_NAME = 'fast-notes-cache-v1'
 const urlsToCache = [
   '/',
   '/index.html',
